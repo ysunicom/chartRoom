@@ -57,3 +57,7 @@ func (this *UserProcess) ServerProcessLogin(mes *message.Message) (err error) {
 	}
 	return
 }
+
+func (this *UserProcess) ServerProcessRegister(mes *message.Message)(err error){
+	return err
+}
